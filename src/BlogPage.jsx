@@ -1,12 +1,13 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import blogPosts from './data.json';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card} from 'react-bootstrap';
 import Header from './Header';
+import CommentSection from './CommentSection';
 
 const BlogPage = () => {
   const { id } = useParams();
-  const blogPost = blogPosts.blogPosts[id];
+  const blogPost = blogPosts[id];
 
   return (
     <div>
@@ -20,12 +21,17 @@ const BlogPage = () => {
               <Card.Img variant="top" src={blogPost.image} alt="Blog Post" className="mb-4 rounded" />
               <Card.Text className="text-muted">
                 {blogPost.description}
+
               </Card.Text>
             </Card.Body>
           </Card>
+          <CommentSection postId={blogPost.id-1} />
         </Col>
+        
       </Row>
+      
     </Container>
+  
     </div>
   );
 };

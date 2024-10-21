@@ -10,7 +10,7 @@ function CardBox() {
 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6; 
-  const totalItems = blogPosts.blogPosts.length;
+  const totalItems = blogPosts.length;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
   const navigatetoPage = (id) => {
@@ -18,7 +18,7 @@ function CardBox() {
     navigate(`./posts/${id}`);
   };
 
-  const currentItems = blogPosts.blogPosts.slice(
+  const currentItems = blogPosts.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
@@ -76,7 +76,7 @@ function CardBox() {
               >
                 {val.description}
               </Card.Text>
-              <Button variant="primary" onClick={() => navigatetoPage(id)}>Read More</Button>
+              <Button variant="primary" onClick={() => navigatetoPage(val.id-1)}>Read More</Button>
             </Card.Body>
           </Card>
         ))}

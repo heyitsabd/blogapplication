@@ -1,76 +1,79 @@
-{
-  "blogPosts": [
-    {
-      "id": 1,
-      "title": "Understanding React Components",
-      "description": "React components are the building blocks of a React application. They allow developers to create reusable pieces of UI, encapsulating both logic and rendering. Each component can maintain its own state and lifecycle, making it easier to manage complex UIs. Components can be classified into two types: **class components** and **functional components**. Class components use ES6 classes, while functional components are simpler and often enhanced with hooks for state and side effects. By composing components together, developers can create intricate interfaces while promoting code reusability and maintainability. This modular approach simplifies the development and testing process in React applications.",
-      "image": "/Images/ReactJs.png"
-    },
-    {
-      "id": 2,
-      "title": "The Future of JavaScript",
-      "description": "A deep dive into upcoming features in JavaScript and how they will impact modern web development. This post covers ES2024 and beyond.",
-      "image": "/Images/JS.png"
-    },
-    {
-      "id": 3,
-      "title": "State Management in Redux",
-      "description": "Learn how to manage the state of your application effectively with Redux, including setting up actions, reducers, and the store.",
-      "image": "/Images/redux.png"
-    },
-    {
-      "id": 4,
-      "title": "Getting Started with TypeScript",
-      "description": "An introduction to TypeScript, its benefits, and how to set up a TypeScript project for your web applications.",
-      "image": "/Images/TypeScript.png"
-    },
-    {
-      "id": 5,
-      "title": "CSS Grid vs. Flexbox",
-      "description": "Explore the differences between CSS Grid and Flexbox, and learn when to use each layout method for your designs.",
-      "image": "/Images/CSSGridFlexbox.png"
-    },
-    {
-      "id": 6,
-      "title": "Building Responsive Web Applications",
-      "description": "Tips and techniques for creating responsive web applications that look great on any device.",
-      "image": "/Images/ResponsiveWeb.png"
-    },
-    {
-      "id": 7,
-      "title": "Introduction to Node.js",
-      "description": "A beginner’s guide to Node.js, including its core concepts and how to set up your first server.",
-      "image": "/Images/NodeJs.png"
-    },
-    {
-      "id": 8,
-      "title": "Exploring GraphQL",
-      "description": "Discover what GraphQL is, its advantages over REST, and how to implement it in your applications.",
-      "image": "/Images/GraphQL.png"
-    },
-    {
-      "id": 9,
-      "title": "Effective API Design",
-      "description": "Learn the principles of effective API design, including RESTful services and best practices."
-   
-    },
-    {
-      "id": 10,
-      "title": "Testing in JavaScript",
-      "description": "An overview of testing methodologies in JavaScript, focusing on unit tests, integration tests, and end-to-end tests.",
-      "image": "/Images/TestingJS.png"
-    },
-    {
-      "id": 11,
-      "title": "Understanding Async/Await in JavaScript",
-      "description": "A comprehensive guide to asynchronous programming in JavaScript using async/await, with examples and use cases.",
-      "image": "/Images/AsyncAwait.png"
-    },
-    {
-      "id": 12,
-      "title": "Mastering the Art of Debugging",
-      "description": "Techniques and tools for effective debugging in JavaScript, helping you solve problems faster.",
-      "image": "/Images/Debugging.png"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Understanding React Components",
+    "description": "React components are the building blocks of a React application. They allow developers to create reusable pieces of UI, encapsulating both logic and rendering. Each component can maintain its own state and lifecycle, making it easier to manage complex UIs. Components can be classified into two types: **class components** and **functional components**. Class components use ES6 classes, while functional components are simpler and often enhanced with hooks for state and side effects. By composing components together, developers can create intricate interfaces while promoting code reusability and maintainability. This modular approach simplifies the development and testing process in React applications.",
+    "image": "/Images/ReactJs.png"
+  },
+  {
+    "id": 2,
+    "title": "The Future of JavaScript",
+    "description": "A deep dive into upcoming features in JavaScript and how they will impact modern web development. This post covers ES2024 and beyond.",
+    "image": "/Images/JS.png"
+  },
+  {
+    "id": 3,
+    "title": "State Management in Redux",
+    "description": "Learn how to manage the state of your application effectively with Redux, including setting up actions, reducers, and the store.",
+    "image": "/Images/redux.png"
+  },
+  {
+    "id": 4,
+    "title": "Getting Started with TypeScript",
+    "description": "An introduction to TypeScript, its benefits, and how to set up a TypeScript project for your web applications.",
+    "image": "/Images/TypeScript.png"
+  },
+  {
+    "id": 5,
+    "title": "CSS Grid vs. Flexbox",
+    "description": "Explore the differences between CSS Grid and Flexbox, and learn when to use each layout method for your designs.",
+    "image": "/Images/CSSGridFlexbox.png"
+  },
+  {
+    "id": 6,
+    "title": "Building Responsive Web Applications",
+    "description": "Tips and techniques for creating responsive web applications that look great on any device.",
+    "image": "/Images/ResponsiveWeb.png"
+  },
+  {
+    "id": 7,
+    "title": "Introduction to Node.js",
+    "description": "A beginner’s guide to Node.js, including its core concepts and how to set up your first server.",
+    "image": "/Images/NodeJs.png"
+  },
+  {
+    "id": 8,
+    "title": "Exploring GraphQL",
+    "description": "Discover what GraphQL is, its advantages over REST, and how to implement it in your applications.",
+    "image": "/Images/GraphQL.png"
+  },
+  {
+    "id": 9,
+    "title": "Effective API Design",
+    "description": "Learn the principles of effective API design, including RESTful services and best practices."
+  },
+  {
+    "id": 10,
+    "title": "Testing in JavaScript",
+    "description": "An overview of testing methodologies in JavaScript, focusing on unit tests, integration tests, and end-to-end tests.",
+    "image": "/Images/TestingJS.png"
+  },
+  {
+    "id": 11,
+    "title": "Understanding Async/Await in JavaScript",
+    "description": "A comprehensive guide to asynchronous programming in JavaScript using async/await, with examples and use cases.",
+    "image": "/Images/AsyncAwait.png"
+  },
+  {
+    "id": 12,
+    "title": "Mastering the Art of Debugging",
+    "description": "Techniques and tools for effective debugging in JavaScript, helping you solve problems faster.",
+    "image": "/Images/Debugging.png"
+  },
+  {
+    "id": 13,
+    "title": "Python Advance",
+    "description": "We teach advance python",
+    "image": "/Images/Sign_page-0001.jpg"
+  }
+]
