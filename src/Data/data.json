@@ -69,11 +69,5 @@
     "title": "Mastering the Art of Debugging",
     "description": "Techniques and tools for effective debugging in JavaScript, helping you solve problems faster.",
     "image": "/Images/Debugging.png"
-  },
-  {
-    "id": 13,
-    "title": "Python Advance",
-    "description": "We teach advance python",
-    "image": "/Images/Sign_page-0001.jpg"
   }
 ]

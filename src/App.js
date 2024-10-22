@@ -1,9 +1,9 @@
 import { Route, Routes  } from 'react-router-dom';
 import './App.css';
-import HomePage from './HomePage';
+import HomePage from './Pages/HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AddBlog from './AddBlog';
-import BlogPage from './BlogPage';
+import AddBlog from './Pages/AddBlog';
+import BlogPage from './Pages/BlogPage';
 
 
 function App() {

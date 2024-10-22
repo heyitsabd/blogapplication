@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import blogPosts from './data.json';
+import blogPosts from '../Data/data.json';
 import { Container, Row, Col, Card} from 'react-bootstrap';
-import Header from './Header';
-import CommentSection from './CommentSection';
+import Header from '../Components/Header';
+import CommentSection from '../Components/CommentSection';
 
 const BlogPage = () => {
   const { id } = useParams();

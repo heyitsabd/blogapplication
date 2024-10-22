@@ -30,7 +30,7 @@ app.use(express.json());
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, 'public/Images/'); 
+    cb(null, '../public/Images/'); 
   },
   filename: (req, file, cb) => {
     cb(null, file.originalname);
@@ -47,7 +47,8 @@ app.post('/api/blogs', upload.single('image'), (req, res) => {
     return res.status(400).send('Title and description are required');
   }
 
-  const filePath = path.join(__dirname, '../src/data.json');
+  const filePath = path.join(__dirname, '../src/Data/data.json');
+  console.log(filePath);
   let blogData = [];
 
   if (fs.existsSync(filePath)) {
@@ -69,7 +70,7 @@ app.post('/api/blogs', upload.single('image'), (req, res) => {
 });
 
 app.get('/api/blogs', (req, res) => {
-  const filePath = path.join(__dirname, '../src/data.json');
+  const filePath = path.join(__dirname, '../src/Data/data.json');
 
   if (fs.existsSync(filePath)) {
     const rawData = fs.readFileSync(filePath);
@@ -80,7 +81,7 @@ app.get('/api/blogs', (req, res) => {
   }
 });
 
-const commentsFilePath = path.join(__dirname, '../src/comments.json');
+const commentsFilePath = path.join(__dirname, '../src/Data/comments.json');
 
 const getCommentsForPost = (postId) => {
   if (fs.existsSync(commentsFilePath)) {

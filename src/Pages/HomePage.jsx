@@ -1,6 +1,6 @@
 import React from 'react'
-import CardBox from './Card/CardBox'
-import Header from './Header'
+import CardBox from './CardBox'
+import Header from '../Components/Header'
 
 const HomePage = () => {
   return (

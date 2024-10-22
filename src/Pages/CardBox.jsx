@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
-import blogPosts from "../data.json";
+import blogPosts from "../Data/data.json";
 import { useNavigate } from "react-router-dom";
 
 function CardBox() {

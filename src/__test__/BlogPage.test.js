@@ -13,15 +13,15 @@ jest.mock('./CommentSection', () => {
 
 describe('BlogPage Component', () => {
   test('renders blog post based on URL parameter', () => {
-    const testId = 0;
+    const testId = 1;
     render(
       <MemoryRouter initialEntries={[`/blog/${testId}`]}>
         <BlogPage />
       </MemoryRouter>
     );
-    expect(screen.getByRole('heading', { name: blogPosts[testId].title })).toBeInTheDocument();
-    expect(screen.getByAltText('Blog Post')).toHaveAttribute('src', blogPosts[testId].image);
-    expect(screen.getByText(blogPosts[testId].description)).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: blogPosts[testId-1].title })).toBeInTheDocument();
+    expect(screen.getByAltText('Blog Post')).toHaveAttribute('src', blogPosts[testId-1].image);
+    expect(screen.getByText(blogPosts[testId-1].description)).toBeInTheDocument();
     expect(screen.getByText('Comment Section')).toBeInTheDocument();
   });
-});
+}); 
